@@ -4,27 +4,133 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>DropDown | CodeSession</title>
   </head>
   <body>
-    Features Company Careers About Login Register Make remote work Get your team
-    in sync, no matter your location. Streamline processes, create team rituals,
-    and watch productivity soar. Learn more
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <main class="wrapper">
+      <nav class="nav">
+        <div class="logo__wrapper"><img src="/images/logo.svg" alt="" /></div>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <div class="nav__list-drop">
+              <a href="#" class="nav_link a"
+                >Features <img src="/images/icon-arrow-up.svg" alt="arrow"
+              /></a>
+              <div class="dropdown">
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item">
+                    <a href="#" class="dropdown__link">
+                      <img src="/images/icon-todo.svg" /> ToDo List</a
+                    >
+                  </li>
+                  <li class="dropdown__list-item">
+                    <a href="#" class="dropdown__link">
+                      <img src="images/icon-calendar.svg" alt="" /> Calendar
+                    </a>
+                  </li>
+                  <li class="dropdown__list-item">
+                    <a href="#" class="dropdown__link">
+                      <img src="images/icon-reminders.svg" alt="" />
+                      Remainders
+                    </a>
+                  </li>
+                  <li class="dropdown__list-item">
+                    <a href="#" class="dropdown__link">
+                      <img src="images/icon-planning.svg" alt="" /> Planning
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav__list-item">
+            <div class="nav__list-drop">
+              <a href="#" class="nav_link a">
+                Company <img src="/images/icon-arrow-up.svg" alt="arrow"
+              /></a>
+              <div class="dropdown">
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item">
+                    <a href="dropdown__link">History</a>
+                  </li>
+                  <li class="dropdown__list-item">
+                    <a href="dropdown__link">Our team</a>
+                  </li>
+                  <li class="dropdown__list-item">
+                    <a href="dropdown__link">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav_link a">Careers</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav_link a">About</a>
+          </li>
+        </ul>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="#" class="nav__link b">Login</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link b"
+              ><span class="register">Register</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="text__wrapper">
+        <h1 class="text__header">Make remote work</h1>
+        <p class="text__content">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="btn_more">Learn more</button>
+        <div class="authors">
+          <ul class="img__list">
+            <li class="img__list-img">
+              <img src="/images/client-audiophile.svg" alt="" />
+            </li>
+            <li class="img__list-img">
+              <img src="/images/client-databiz.svg" alt="" />
+            </li>
+            <li class="img__list-img">
+              <img src="/images/client-maker.svg" alt="" />
+            </li>
+            <li class="img__list-img">
+              <img src="/images/client-meet.svg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="img_wrapper">
+        <img class="img" src="/images/image-hero-desktop.png" alt="image" />
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Epilogue", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.6rem;
+}
+.wrapper {
+}
+
+/*////////// NAVIGATION ///////////////*/
+
+.nav {
+}
+.logo__wrapper {
+}
+.nav__list {
+}
+.nav__list-item {
+}
+.nav__list-drop {
+}
+.nav_link {
+}
+.dropdown {
+}
+.dropdown__list {
+}
+.dropdown__list-item {
+}
+.dropdown__link {
+}
+/*////////// TEXT ///////////////*/
+
+.text__wrapper {
+}
+.text__header {
+}
+.text__content {
+}
+.btn_more {
+}
+.authors {
+}
+.img__list {
+}
+.img__list-img {
+}
+
+/*////////// IMAGE ///////////////*/
+.img_wrapper {
+}
+.img {
+}
