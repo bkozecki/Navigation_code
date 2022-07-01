@@ -23,112 +23,143 @@
   <body>
     <main class="wrapper">
       <nav class="nav">
-        <div class="logo__wrapper"><img src="/images/logo.svg" alt="" /></div>
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <div class="nav__list-drop">
-              <a href="#" class="nav_link a"
-                >Features <img src="/images/icon-arrow-up.svg" alt="arrow"
-              /></a>
-              <div class="dropdown">
-                <ul class="dropdown__list">
-                  <li class="dropdown__list-item">
-                    <a href="#" class="dropdown__link">
-                      <img src="/images/icon-todo.svg" /> ToDo List</a
-                    >
-                  </li>
-                  <li class="dropdown__list-item">
-                    <a href="#" class="dropdown__link">
-                      <img src="images/icon-calendar.svg" alt="" /> Calendar
-                    </a>
-                  </li>
-                  <li class="dropdown__list-item">
-                    <a href="#" class="dropdown__link">
-                      <img src="images/icon-reminders.svg" alt="" />
-                      Remainders
-                    </a>
-                  </li>
-                  <li class="dropdown__list-item">
-                    <a href="#" class="dropdown__link">
-                      <img src="images/icon-planning.svg" alt="" /> Planning
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        <div class="nav__wraper">
+          <div class="logo__wrapper">
+            <img class="logo" src="/images/logo.svg" alt="" />
+          </div>
+          <div class="nav__items">
+            <div class="nav__left">
+              <ul class="nav__list">
+                <li class="nav__list-item">
+                  <div class="nav__list-drop">
+                    <a id="feature" href="#" class="nav_link"
+                      >Features
+                      <img
+                        id="iconA"
+                        class="icon"
+                        src="/images/icon-arrow-up.svg"
+                        alt="arrow"
+                    /></a>
+                  </div>
+                </li>
+                <li class="nav__list-item">
+                  <div class="nav__list-drop">
+                    <a id="company" href="#" class="nav_link">
+                      Company
+                      <img
+                        id="iconB"
+                        class="icon"
+                        src="/images/icon-arrow-up.svg"
+                        alt="arrow"
+                    /></a>
+                  </div>
+                </li>
+                <li class="nav__list-item">
+                  <a href="#" class="nav_link">Careers</a>
+                </li>
+                <li class="nav__list-item">
+                  <a href="#" class="nav_link">About</a>
+                </li>
+              </ul>
             </div>
-          </li>
-          <li class="nav__list-item">
-            <div class="nav__list-drop">
-              <a href="#" class="nav_link a">
-                Company <img src="/images/icon-arrow-up.svg" alt="arrow"
-              /></a>
-              <div class="dropdown">
-                <ul class="dropdown__list">
-                  <li class="dropdown__list-item">
-                    <a href="dropdown__link">History</a>
-                  </li>
-                  <li class="dropdown__list-item">
-                    <a href="dropdown__link">Our team</a>
-                  </li>
-                  <li class="dropdown__list-item">
-                    <a href="dropdown__link">Blog</a>
-                  </li>
-                </ul>
-              </div>
+
+            <div class="nav__right">
+              <ul class="nav__list">
+                <li class="nav__list-item">
+                  <a href="#" class="nav_link">Login</a>
+                </li>
+                <li class="nav__list-item">
+                  <a href="#" class="nav_link"
+                    ><span class="register">Register</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-          </li>
-          <li class="nav__list-item">
-            <a href="#" class="nav_link a">Careers</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#" class="nav_link a">About</a>
-          </li>
-        </ul>
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a href="#" class="nav__link b">Login</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#" class="nav__link b"
-              ><span class="register">Register</span>
-            </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </nav>
-      <div class="text__wrapper">
-        <h1 class="text__header">Make remote work</h1>
-        <p class="text__content">
-          Get your team in sync, no matter your location. Streamline processes,
-          create team rituals, and watch productivity soar.
-        </p>
-        <button class="btn_more">Learn more</button>
-        <div class="authors">
-          <ul class="img__list">
-            <li class="img__list-img">
-              <img src="/images/client-audiophile.svg" alt="" />
+      <section class="dropdown__wrapper">
+        <div class="dropdown a">
+          <ul class="dropdown__list">
+            <li class="dropdown__list-item">
+              <a href="#" class="dropdown__link">
+                <img class="drop_icon" src="/images/icon-todo.svg" /> ToDo
+                List</a
+              >
             </li>
-            <li class="img__list-img">
-              <img src="/images/client-databiz.svg" alt="" />
+            <li class="dropdown__list-item">
+              <a href="#" class="dropdown__link">
+                <img class="drop_icon" src="images/icon-calendar.svg" alt="" />
+                Calendar
+              </a>
             </li>
-            <li class="img__list-img">
-              <img src="/images/client-maker.svg" alt="" />
+            <li class="dropdown__list-item">
+              <a href="#" class="dropdown__link">
+                <img class="drop_icon" src="images/icon-reminders.svg" alt="" />
+                Remainders
+              </a>
             </li>
-            <li class="img__list-img">
-              <img src="/images/client-meet.svg" alt="" />
+            <li class="dropdown__list-item">
+              <a href="#" class="dropdown__link">
+                <img class="drop_icon" src="images/icon-planning.svg" alt="" />
+                Planning
+              </a>
             </li>
           </ul>
         </div>
-      </div>
-      <div class="img_wrapper">
-        <img class="img" src="/images/image-hero-desktop.png" alt="image" />
+        <div class="dropdown b">
+          <ul class="dropdown__list">
+            <li class="dropdown__list-item">
+              <a class="dropdown__link" href="dropdown__link">History</a>
+            </li>
+            <li class="dropdown__list-item">
+              <a class="dropdown__link" href="dropdown__link">Our team</a>
+            </li>
+            <li class="dropdown__list-item">
+              <a class="dropdown__link" href="dropdown__link">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="text_img">
+        <div class="text__wrapper">
+          <h1 class="text__header">Make remote work</h1>
+          <p class="text__content">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <div class="btn__more">
+            <button class="btn">Learn more</button>
+          </div>
+          <div class="authors">
+            <ul class="img__list">
+              <li class="img__list-img">
+                <img src="/images/client-audiophile.svg" alt="" />
+              </li>
+              <li class="img__list-img">
+                <img src="/images/client-databiz.svg" alt="" />
+              </li>
+              <li class="img__list-img">
+                <img src="/images/client-maker.svg" alt="" />
+              </li>
+              <li class="img__list-img">
+                <img src="/images/client-meet.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="img_wrapper">
+          <img class="img" src="/images/image-hero-desktop.png" alt="image" />
+        </div>
       </div>
     </main>
-    <footer>
+    <footer style="text-align: center">
       <div class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by
+        <a href="https://github.com/bkozecki" target="_blank">bkkozecc</a>.
       </div>
     </footer>
     <script src="script.js"></script>
